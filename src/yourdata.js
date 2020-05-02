@@ -99,10 +99,10 @@ export default {
 	],
 	social: [
 		// Add Or Remove The Link Accordingly
-		{ name: "Github", url: "https://github.com/chetanverma16" },
+		{ name: "Github", url: "https://github.com/wawanggomora/" },
 		{
 			name: "LinkedIn",
-			url: "https://www.behance.net/chetanverma",
+			url: "https://www.linkedin.com/in/joshua-dave-gomora-0a682410a",
 		},
 	],
 };

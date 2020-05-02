@@ -48,7 +48,12 @@ class About extends Component {
 							<p>
 								I am a web developer at{" "}
 								<strong>
-									<a className="site-link" href="https://www.thisisbloop.com/">
+									<a
+										className="site-link"
+										href="https://www.thisisbloop.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										bloop℠
 									</a>
 								</strong>
