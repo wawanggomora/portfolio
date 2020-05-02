@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="583.007" height="554.921" viewBox="0 0 583.007 554.921">
+  <g id="element-3" transform="translate(-1567.497 -4352.04)">
+    <g id="wave_element" data-name="wave element" transform="translate(1803 3233)">
+      <g id="wavey" transform="translate(-205.371 1424.636)">
+        <path id="Path_7" data-name="Path 7" d="M34.5,21.5c11.4,0,11.4,17.343,22.8,17.343S68.694,21.5,80.093,21.5s11.4,17.343,22.8,17.343,11.4-17.343,22.8-17.343,11.4,17.343,22.8,17.343,11.4-17.343,22.8-17.343,11.4,17.343,22.8,17.343,11.4-17.343,22.8-17.343" transform="translate(-34.5 -21.5)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="7"/>
+      </g>
+    </g>
+    <g id="Polygon_1" data-name="Polygon 1" transform="matrix(0.899, -0.438, 0.438, 0.899, 1567.497, 4551.937)" fill="none">
+      <path d="M228,0,456,395H0Z" stroke="none"/>
+      <path d="M 228 18.00311279296875 L 15.58660888671875 386 L 440.4133911132813 386 L 228 18.00311279296875 M 228 0 L 456 395 L 0 395 L 228 0 Z" stroke="none" fill="#f7c6c9"/>
+    </g>
+  </g>
+</svg>

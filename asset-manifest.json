@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.15f6fe6f.chunk.css",
+    "main.js": "/portfolio/static/js/main.22d296f7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.22d296f7.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.784d01ab.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.784d01ab.js.map",
+    "static/js/2.590b61f5.chunk.js": "/portfolio/static/js/2.590b61f5.chunk.js",
+    "static/js/2.590b61f5.chunk.js.map": "/portfolio/static/js/2.590b61f5.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.fb08996b46dca65d14955b6afaaa98f5.js": "/portfolio/precache-manifest.fb08996b46dca65d14955b6afaaa98f5.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.15f6fe6f.chunk.css.map": "/portfolio/static/css/main.15f6fe6f.chunk.css.map",
+    "static/media/App.css": "/portfolio/static/media/wave.e4a5baf2.svg",
+    "static/media/bighead-thumb.jpg": "/portfolio/static/media/bighead-thumb.3e60fec0.jpg",
+    "static/media/confection-1.jpg": "/portfolio/static/media/confection-1.0dc793fb.jpg",
+    "static/media/confection-2.jpg": "/portfolio/static/media/confection-2.0abcbf73.jpg",
+    "static/media/confection-thumb.jpg": "/portfolio/static/media/confection-thumb.9c0c1ef0.jpg",
+    "static/media/door-1.jpg": "/portfolio/static/media/door-1.5a19d9be.jpg",
+    "static/media/door-2.jpg": "/portfolio/static/media/door-2.986027d9.jpg",
+    "static/media/eden-thumb.jpg": "/portfolio/static/media/eden-thumb.22415ade.jpg",
+    "static/media/furniture-1.jpg": "/portfolio/static/media/furniture-1.2596115c.jpg",
+    "static/media/furniture-2.jpg": "/portfolio/static/media/furniture-2.45394fc2.jpg",
+    "static/media/josh-gomora.jpg": "/portfolio/static/media/josh-gomora.9468bb03.jpg",
+    "static/media/tattoo-1.jpg": "/portfolio/static/media/tattoo-1.764df8ab.jpg",
+    "static/media/tattoo-2.jpg": "/portfolio/static/media/tattoo-2.0e16a84c.jpg",
+    "static/media/tattoo-thumb.jpg": "/portfolio/static/media/tattoo-thumb.ef8f19fd.jpg"
+  }
+}
