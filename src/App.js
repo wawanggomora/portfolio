@@ -1,31 +1,29 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+import "./App.css";
 
-import Header from './components/Header';
-import About from './components/About';
-import Work from './components/work';
-import Contact from './components/Contact';
-import Navbar from './components/Navbar'
+import ProjectSingle from "./components/ProjectSingle";
+import Homepage from "./pages/homepage";
+import PageNotFound from "./pages/page-not-found";
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar></Navbar>
-      <div className="App-header">
-      <Header></Header>
-      </div>
-      
-      <div className='About'>
-        <About></About>
-      </div>
-      <div className='work'>
-        <Work></Work>
-      </div>
-      <div className='contact'>
-        <Contact></Contact>
-      </div>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Switch>
+				<Route exact path="/" component={Homepage} />
+				<Route exact path="/projects/:slug" component={ProjectSingle} />
+				<Route path="/page-not-found" component={PageNotFound} />
+				<Route component={PageNotFound} />
+			</Switch>
+		</div>
+	);
 }
+
+/*
+			<div className="contact">
+				<Contact></Contact>
+			</div>
+
+*/
 
 export default App;

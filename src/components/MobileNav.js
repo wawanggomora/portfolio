@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Link as LinkScroll, animateScroll as scroll } from "react-scroll";
-
-class Navbar extends Component {
+import { Link, animateScroll as scroll } from "react-scroll";
+import HamburgerMenu from "react-hamburger-menu";
+class MobileNav extends Component {
 	constructor() {
 		super();
 		this.state = { isToggleOn: false };
@@ -21,11 +21,26 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<div className="site-navigation">
-				<nav>
+			<div className="mobile-nav">
+				<HamburgerMenu
+					isOpen={this.state.isToggleOn}
+					menuClicked={this.handleClick}
+					width={18}
+					height={15}
+					strokeWidth={1}
+					rotate={0}
+					color="black"
+					borderRadius={0}
+					animationDuration={0.5}
+				/>
+				<div
+					className={`floating-nav ${
+						this.state.isToggleOn ? "is-toggleOn" : ""
+					}`}
+				>
 					<ul>
 						<li>
-							<LinkScroll
+							<Link
 								className="link"
 								activeClass="active"
 								to="home"
@@ -35,11 +50,11 @@ class Navbar extends Component {
 								duration={500}
 								onClick={this.scrollToTop}
 							>
-								Home
-							</LinkScroll>
+								Home.
+							</Link>
 						</li>
 						<li>
-							<LinkScroll
+							<Link
 								className="link"
 								activeClass="active"
 								to="About"
@@ -48,11 +63,11 @@ class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								About
-							</LinkScroll>
+								About.
+							</Link>
 						</li>
 						<li>
-							<LinkScroll
+							<Link
 								className="link"
 								activeClass="active"
 								to="work"
@@ -61,11 +76,11 @@ class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Work
-							</LinkScroll>
+								Work.
+							</Link>
 						</li>
 						<li>
-							<LinkScroll
+							<Link
 								className="link"
 								activeClass="active"
 								to="contact"
@@ -74,14 +89,14 @@ class Navbar extends Component {
 								offset={-70}
 								duration={500}
 							>
-								Contact
-							</LinkScroll>
+								Contact.
+							</Link>
 						</li>
 					</ul>
-				</nav>
+				</div>
 			</div>
 		);
 	}
 }
 
-export default Navbar;
+export default MobileNav;
