@@ -24,7 +24,7 @@ export default {
 		"Web Designer. Full-stack Developer.",
 	],
 	//Contact Email
-	contactEmail: "joshuadave.gomora@gmail.com",
+	contactEmail: "joshuagomora.dev@gmail.com",
 	// Add Your About Text Here
 	abouttext:
 		"I specialize in creating modern web solutions for individuals and businesses. Using the latest technologies and coding standards, I will strive to build you a great web solution. With over 4 years of experience of web design and development for E-commerce websites and landing pages.",
