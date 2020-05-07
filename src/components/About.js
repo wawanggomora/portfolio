@@ -46,18 +46,7 @@ class About extends Component {
 						</h1>
 						<Fade bottom>
 							<p>
-								I am a web developer at{" "}
-								<strong>
-									<a
-										className="site-link"
-										href="https://www.thisisbloop.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										bloop℠
-									</a>
-								</strong>
-								. I specialize in creating modern web solutions for individuals
+								I specialize in creating modern web solutions for individuals
 								and businesses. Using the latest technologies and coding
 								standards, I will strive to build you a great web solution. With
 								over 4 years of experience in web design and development for{" "}
